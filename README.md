@@ -1,5 +1,7 @@
 # vue-exercise
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d335f112ed84647a0098352a0cabbfb)](https://app.codacy.com/gh/Attacktive/vue-exercise?utm_source=github.com&utm_medium=referral&utm_content=Attacktive/vue-exercise&utm_campaign=Badge_Grade)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
