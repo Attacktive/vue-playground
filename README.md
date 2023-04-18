@@ -1,5 +1,7 @@
 # vue-exercise
 
+[![CodeFactor](https://www.codefactor.io/repository/github/attacktive/vue-exercise/badge/main)](https://www.codefactor.io/repository/github/attacktive/vue-exercise/overview/main)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
