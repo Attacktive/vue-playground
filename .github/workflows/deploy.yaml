@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
       - name: Install NPM packages
@@ -21,12 +21,10 @@ jobs:
         run: npm run build --if-present
       - name: Deploy
         run: |
-          git config --global user.name $user_name
-          git config --global user.email $user_email
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git remote set-url origin https://${github_token}@github.com/${repository}
           npm run deploy
         env:
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
           github_token: ${{ secrets.ACCESS_TOKEN }}
           repository: ${{ github.repository }}
