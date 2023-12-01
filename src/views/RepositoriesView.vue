@@ -37,6 +37,11 @@
 				A <em>Java</em> application which periodically checks on the internet connection and turn on the <a href="https://mudfish.net">Mudfish VPN</a> item
 			</li>
 			<li>
+				<a href="https://github.com/Attacktive/ipa-to-pronunciation-respelling" target="_blank">ipa-to-pronunciation-respelling</a>:
+				A <em>Bootstrap</em>-powered HTML page that converts "cryptic" <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a> expressions
+				into <a href="https://en.wikipedia.org/wiki/Pronunciation_respelling_for_English">English pronunciation respelling</a>
+			</li>
+			<li>
 				...and more on <a href="https://github.com/Attacktive?tab=repositories">my repositories</a>!
 			</li>
 		</ul>
