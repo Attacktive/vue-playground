@@ -5,15 +5,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/" # Location of package manifests
+  - package-ecosystem: 'npm'
+    directory: '/' # Location of package manifests
     schedule:
-      interval: "daily"
-  - package-ecosystem: "github-actions"
-    directory: "/"
+      interval: 'daily'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     labels:
-      - "CI/CD"
+      - 'CI/CD'
     commit-message:
-      prefix: ci
+      prefix: 'ci'
