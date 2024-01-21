@@ -15,12 +15,16 @@
 						The backend written in <em>Kotlin</em>
 					</li>
 					<li>
+						<a href="https://github.com/Attacktive/troubleshooter-editor-front-end-svelte">troubleshooter-editor-front-end-svelte</a>:
+						The frontend with <em>Svelte</em>, <em>TypeScript</em>, and <em>Tailwind CSS</em>
+					</li>
+					<li>
 						<a href="https://github.com/Attacktive/troubleshooter-editor-front-end">troubleshooter-editor-front-end</a>:
-						The frontend with <em>React</em> which was archived ☠
+						The frontend with <em>React</em>, and <em>Bootstrap</em> which is archived ☠
 					</li>
 					<li>
 						<a href="https://github.com/Attacktive/troubleshooter-editor-front-end-vue">troubleshooter-editor-front-end-vue</a>:
-						The frontend with <em>Vue.js</em>, <em>TypeScript</em>
+						The frontend with <em>Vue.js</em>, <em>TypeScript</em>, and <em>Bootstrap</em> which is archived ☠
 					</li>
 				</ul>
 			</li>
@@ -53,3 +57,5 @@ code {
 	background-color: #eeeeee;
 }
 </style>
+<script setup lang="ts">
+</script>
