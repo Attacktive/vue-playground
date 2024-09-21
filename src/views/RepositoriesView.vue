@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>The repositories I've been working on.</h1>
+		<h1>The repositories I've been working on:</h1>
 		<ul>
 			<li>
 				<a href="https://github.com/Attacktive/vue-exercise" target="_blank">vue-exercise</a>:
