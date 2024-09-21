@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { mount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HelloWorld from "@/components/hello-world/HelloWorld.vue";
 
 describe("HelloWorld", () => {
 	it("renders properly", () => {
