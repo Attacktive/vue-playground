@@ -2,7 +2,7 @@
 interface Props {
 	link?: string;
 	linkText?: string;
-	trailingColon: boolean;
+	trailingColon?: boolean;
 }
 
 withDefaults(
