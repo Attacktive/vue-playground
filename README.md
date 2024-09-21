@@ -52,7 +52,13 @@ npm run build
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-npm run test:unit
+npm run test
+```
+
+### Get the Test Coverage with [Vitest](https://vitest.dev/)
+
+```sh
+npm run coverage
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
