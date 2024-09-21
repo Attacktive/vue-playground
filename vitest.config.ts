@@ -11,6 +11,10 @@ export default mergeConfig(
 			environment: "jsdom",
 			alias: {
 				"@": fileURLToPath(new URL("./src", import.meta.url))
+			},
+			coverage: {
+				reporter: ["text", "json", "json-summary"],
+				reportOnFailure: true
 			}
 		}
 	})

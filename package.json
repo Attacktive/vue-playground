@@ -9,6 +9,7 @@
 		"preview": "vite preview",
 		"test": "vitest",
 		"coverage": "vitest run --coverage",
+		"test-with-coverage": "vitest --coverage.enabled true",
 		"build-only": "vite build",
 		"type-check": "vue-tsc --noEmit -p tsconfig.json --composite false",
 		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
