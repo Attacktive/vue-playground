@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HelloWorld from "@/components/hello-world/HelloWorld.vue";
 
 const subject = computed(() => {
 	if (secondsMod10.value < 5) {
