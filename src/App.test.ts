@@ -6,7 +6,9 @@ vi.mock(
 	"vue-router",
 	async () => {
 		return {
-			RouterView: {},
+			RouterView: {
+				render: () => {}
+			},
 			RouterLink: {
 				render: () => {}
 			},
