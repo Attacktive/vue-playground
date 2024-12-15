@@ -7,11 +7,13 @@ vi.mock(
 	async () => {
 		return {
 			RouterView: {
-				render: () => {}
+				render: () => {
+				}
 			},
 			RouterLink: {
-				render: () => {}
-			},
+				render: () => {
+				}
+			}
 		};
 	});
 

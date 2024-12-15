@@ -10,7 +10,7 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 <template>
 	<WelcomeItem>
 		<template #icon>
-			<DocumentationIcon/>
+			<DocumentationIcon />
 		</template>
 		<template #heading>Documentation</template>
 
@@ -19,7 +19,7 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 
 	<WelcomeItem>
 		<template #icon>
-			<ToolingIcon/>
+			<ToolingIcon />
 		</template>
 		<template #heading>Tooling</template>
 
@@ -35,14 +35,14 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 		<a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>
 		.
 
-		<br/>
+		<br>
 
 		More instructions are available in <code>README.md</code>.
 	</WelcomeItem>
 
 	<WelcomeItem>
 		<template #icon>
-			<EcosystemIcon/>
+			<EcosystemIcon />
 		</template>
 		<template #heading>Ecosystem</template>
 
@@ -58,7 +58,7 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 
 	<WelcomeItem>
 		<template #icon>
-			<CommunityIcon/>
+			<CommunityIcon />
 		</template>
 		<template #heading>Community</template>
 
@@ -75,7 +75,7 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 
 	<WelcomeItem>
 		<template #icon>
-			<SupportIcon/>
+			<SupportIcon />
 		</template>
 		<template #heading>Support Vue</template>
 

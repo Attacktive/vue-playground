@@ -14,15 +14,17 @@ const subject = computed(() => {
 });
 
 const secondsMod10 = ref(0);
-setInterval(() => { secondsMod10.value = new Date().getSeconds() % 10; }, 1000);
+setInterval(() => {
+	secondsMod10.value = new Date().getSeconds() % 10;
+}, 1000);
 </script>
 
 <template>
 	<header>
-		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125"/>
+		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125">
 
 		<div class="wrapper">
-			<HelloWorld :message="`${subject} did it!`"/>
+			<HelloWorld :message="`${subject} did it!`" />
 
 			<nav>
 				<RouterLink to="/">Home</RouterLink>
@@ -32,7 +34,7 @@ setInterval(() => { secondsMod10.value = new Date().getSeconds() % 10; }, 1000);
 		</div>
 	</header>
 
-	<RouterView/>
+	<RouterView />
 </template>
 
 <style scoped>

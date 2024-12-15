@@ -7,15 +7,15 @@ interface Props {
 
 withDefaults(
 	defineProps<Props>(),
-	{ trailingColon: true }
-)
+	{ link: undefined, linkText: undefined, trailingColon: true }
+);
 </script>
 
 <template>
 	<li>
-		<slot name="pre-link"/>
+		<slot name="pre-link" />
 		<a v-if="link" :href="link" target="_blank">{{ linkText }}</a>{{ trailingColon === true? ": ": "" }}
-		<slot name="post-link"/>
+		<slot name="post-link" />
 		<slot>
 			The default content is being shown.
 			<br>

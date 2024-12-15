@@ -1,7 +1,7 @@
-/// <reference types="vitest/config" />
-import { defineConfig, mergeConfig } from "vite";
+import { mergeConfig } from "vite";
+import { defineConfig } from "vitest/config";
 import viteConfig from "./vite.config";
-import { fileURLToPath, URL } from "node:url";
+import { resolve } from "path";
 
 export default mergeConfig(
 	viteConfig,
@@ -10,9 +10,10 @@ export default mergeConfig(
 			globals: true,
 			environment: "jsdom",
 			alias: {
-				"@": fileURLToPath(new URL("./src", import.meta.url))
+				"@": resolve(__dirname, "./src")
 			},
 			coverage: {
+				provider: "v8",
 				reporter: ["text", "json", "json-summary"],
 				reportOnFailure: true
 			}
