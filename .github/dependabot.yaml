@@ -13,7 +13,13 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
+      time: '00:00'
     labels:
       - 'CI/CD'
     commit-message:
       prefix: 'ci'
+    groups:
+      Vitest:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
