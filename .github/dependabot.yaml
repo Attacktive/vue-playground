@@ -19,6 +19,10 @@ updates:
     commit-message:
       prefix: 'ci'
     groups:
+      ESLint:
+        patterns:
+          - 'eslint'
+          - '@eslint/*'
       Vitest:
         patterns:
           - 'vitest'
