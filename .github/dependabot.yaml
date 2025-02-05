@@ -5,10 +5,6 @@
 
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/' # Location of package manifests
-    schedule:
-      interval: 'daily'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
@@ -18,12 +14,21 @@ updates:
       - 'CI/CD'
     commit-message:
       prefix: 'ci'
+  - package-ecosystem: 'npm'
+    directory: '/' # Location of package manifests
+    schedule:
+      interval: 'daily'
+      time: '00:00'
+    labels:
+      - 'CI/CD'
+    commit-message:
+      prefix: 'ci'
     groups:
-      ESLint:
+      eslint:
         patterns:
           - 'eslint'
           - '@eslint/*'
-      Vitest:
+      vitest:
         patterns:
           - 'vitest'
           - '@vitest/*'
